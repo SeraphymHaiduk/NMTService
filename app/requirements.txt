@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+furigana
+MeCab
+jaconv
+ipadic
+torch #Need to manage dillema with CPU and CUDA versions
+psutil
