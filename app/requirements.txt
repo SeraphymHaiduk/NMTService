@@ -1,8 +1,11 @@
 fastapi
 uvicorn
 furigana
+wheel
 MeCab
 jaconv
 ipadic
 torch #Need to manage dillema with CPU and CUDA versions
+transformers
 psutil
+pydantic_settings

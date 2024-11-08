@@ -52,7 +52,7 @@ async def translate_text(
         }
 )]) -> TranslationModelOutput:
     print(f"text: {model_data.text}. src_lang: {source_lang}, tgt_lang: {target_lang}")
-    translated_text = Translator.translate(model_data.text, source_lang, target_lang)
+    translated_text = Translator().translate(model_data.text, source_lang, target_lang)
     # print(f"translated_text: {translated_text}")
     transcription_function = transcriptor.get_transcriptor(target_lang)
     if transcription_function is not None:
