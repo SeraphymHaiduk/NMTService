@@ -1,8 +1,7 @@
 from typing import Annotated
 from fastapi import APIRouter, Body, Query
 
-from src.models.language import LanguageModel
-from src.models.translation_model import TranslationModelInput, TranslationModelOutput
+from src.types.translation import LanguageModel, TranslationModelInput, TranslationModelOutput
 
 from src.translation import Languages, transcriptor
 from src.translation.translator import Translator

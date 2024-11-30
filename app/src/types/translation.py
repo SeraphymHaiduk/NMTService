@@ -1,5 +1,9 @@
 from pydantic import BaseModel
 
+class LanguageModel(BaseModel):
+    code: str
+    name: str
+
 # TODO: rename. 'Model' should be at the end
 class TranslationModelInput(BaseModel):
     text: str

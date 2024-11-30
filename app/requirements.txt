@@ -9,3 +9,11 @@ torch #Need to manage dillema with CPU and CUDA versions
 transformers
 psutil
 pydantic_settings
+
+protobuf
+tiktoken
+blobfile
+bitsandbytes
+accelerate>=0.26.0
+
+compressed_tensors

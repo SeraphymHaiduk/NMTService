@@ -1,4 +1,4 @@
-from src.models.language import LanguageModel
+from src.types.translation import LanguageModel
 
 available_langs = {
     "ace_Arab": "Acehnese (Arabic script)",
